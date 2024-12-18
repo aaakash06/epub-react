@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ReactReader } from "react-reader";
 
-export const App = () => {
+export default function App() {
   const [location, setLocation] = useState<string | number>(0);
   return (
     <div style={{ height: "100vh" }}>
@@ -12,4 +12,4 @@ export const App = () => {
       />
     </div>
   );
-};
+}
